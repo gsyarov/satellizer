@@ -378,7 +378,7 @@ app.post('/auth/facebook', function(req, res) {
   var graphApiUrl = 'https://graph.facebook.com/me';
   var params = {
     code: req.body.code,
-    client_id: req.body.clientId,
+    client_id: 1583681655183460,
     client_secret: config.FACEBOOK_SECRET,
     redirect_uri: req.body.redirectUri
   };

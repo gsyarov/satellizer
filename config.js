@@ -1,6 +1,6 @@
 module.exports = {
   TOKEN_SECRET: process.env.TOKEN_SECRET || 'A hard to guess string',
-  MONGO_URI: process.env.MONGO_URI || 'localhost',
+  MONGO_URI: process.env.MONGO_URI || 'mongodb://test:qwerty@ds053390.mongolab.com:53390/tvshowtest',
   FACEBOOK_SECRET: process.env.FACEBOOK_SECRET || 'Facebook App Secret',
   FOURSQUARE_SECRET: process.env.FOURSQUARE_SECRET || 'Foursquare Client Secret',
   GOOGLE_SECRET: process.env.GOOGLE_SECRET || 'Google Client Secret',

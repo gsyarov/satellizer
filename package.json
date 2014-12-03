@@ -1,5 +1,5 @@
 {
-  "name": "satellizer",
+  "name": "pinterestBG",
   "main": "server.js",
   "dependencies": {
     "bcryptjs": "^0.7.12",

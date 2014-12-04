@@ -35,7 +35,7 @@ angular.module('MyApp', ['ngResource', 'ngMessages', 'ui.router', 'mgcrea.ngStra
 
     $urlRouterProvider.otherwise('/');
 
-    $authProvider.loginOnSignup = true;
+$authProvider.loginOnSignup = true;
 $authProvider.loginRedirect = '/';
 $authProvider.logoutRedirect = '/';
 $authProvider.signupRedirect = '/login';
@@ -142,3 +142,4 @@ $authProvider.oauth1({
   name: null,
   popupOptions: null
 });
+  });

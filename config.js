@@ -3,7 +3,7 @@ module.exports = {
   MONGO_URI: process.env.MONGO_URI || 'mongodb://test:qwerty@ds053390.mongolab.com:53390/tvshowtest',
   FACEBOOK_SECRET: process.env.FACEBOOK_SECRET || '5f9c8c45813b1dc7c15a906818e9e246',
   FOURSQUARE_SECRET: process.env.FOURSQUARE_SECRET || 'Foursquare Client Secret',
-  GOOGLE_SECRET: process.env.GOOGLE_SECRET || 'TQrG0XX0nEpAVxUycgIzyR2f',
+  GOOGLE_SECRET: process.env.GOOGLE_SECRET || 'Z2aDdMj2AaymN4WqmqtPcwX_',
   GITHUB_SECRET: process.env.GITHUB_SECRET || 'GitHub Client Secret',
   LINKEDIN_SECRET: process.env.LINKEDIN_SECRET || 'LinkedIn Client Secret',
   WINDOWS_LIVE_SECRET: process.env.WINDOWS_LIVE_SECRET || 'Windows Live Secret',
